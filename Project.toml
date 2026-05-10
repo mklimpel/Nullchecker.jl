@@ -1,0 +1,13 @@
+name = "Nullchecker"
+uuid = "eea77134-b293-44f2-9248-132e4b7f55c4"
+authors = ["Matias Klimpel <matias.klimpel@googlemail.com> and contributors"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.10.10"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
